@@ -43,8 +43,6 @@ namespace A893092.Actividad03
             bool Flag;
             do
             {
-
-
                 Console.WriteLine(titulo);
                 var ingreso = Console.ReadLine();
 

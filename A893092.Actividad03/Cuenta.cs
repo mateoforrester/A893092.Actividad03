@@ -13,8 +13,6 @@ namespace A893092.Actividad03
         public string Tipo { get; }
 
 
-
-
         public Cuenta(string linea)
         {
             var datos = linea.Split('|');
@@ -25,6 +23,7 @@ namespace A893092.Actividad03
 
         public Cuenta()
         {
+
         }
 
     }

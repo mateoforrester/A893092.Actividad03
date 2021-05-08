@@ -29,7 +29,6 @@ namespace A893092.Actividad03
         {
         }
 
-
         public string ObtenerLineaDatos()
         {
             return $"{NroAsiento}|{Fecha}|{CodCuenta}|{Debe}|{Haber}";

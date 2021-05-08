@@ -11,11 +11,10 @@ namespace A893092.Actividad03
     {
         public static List<Registro> registros = new List<Registro>();
 
-
         const string ruta = @"C:\Users\i7Lenovo\source\repos\CAI\A893092.Actividad031\Diario.txt";
+
         static Libro()
         {
-
             if (File.Exists(ruta))
             {
                 using (var reader = new StreamReader(ruta))
