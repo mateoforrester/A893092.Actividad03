@@ -13,7 +13,7 @@ namespace A893092.Actividad03
 
         static Plan()
         {
-            string ruta = @"C:\Users\i7Lenovo\source\repos\CAI\A893092.Actividad031\Plan de cuentas.txt";
+            string ruta = @"C:\Users\i7Lenovo\source\repos\CAI\A893092.Actividad03\Plan de cuentas.txt";
             if (File.Exists(ruta))
             {
                 using (var reader = new StreamReader(ruta))

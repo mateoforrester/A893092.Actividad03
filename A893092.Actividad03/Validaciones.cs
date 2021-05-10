@@ -40,7 +40,7 @@ namespace A893092.Actividad03
         public static int ValidarCodigo(string titulo)
         {
             int codigo;
-            bool Flag;
+            bool Flag = false;
             do
             {
                 Console.WriteLine(titulo);
@@ -49,10 +49,12 @@ namespace A893092.Actividad03
                 if (!int.TryParse(ingreso, out codigo))
                 {
                     Console.WriteLine("Debe ingresar un vaolr numerico");
+                    continue;
                 }
                 if (codigo <= 0)
                 {
-                    Console.WriteLine("Debe ser mayor a 0");
+                    Console.WriteLine("El codigo ingresado debe ser mayor a 0");
+                    continue;
                 }
 
                 Flag = true;

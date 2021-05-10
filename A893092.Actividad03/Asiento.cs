@@ -35,14 +35,16 @@ namespace A893092.Actividad03
 
         public void MostrarDatos()
         {
+            Console.WriteLine();
             Console.WriteLine("Registro DEBE:");
             Console.WriteLine(registroDebe.ObtenerLineaDatos());
 
+            Console.WriteLine();
             Console.WriteLine("Registro HABER:");
             Console.WriteLine(registroHaber.ObtenerLineaDatos());
         }
 
-        public bool ValidarDatos(Plan plan)
+        public bool RevalidarDatos(Plan plan)
         {
             if (!plan.Existe(registroDebe.CodCuenta) || !plan.Existe(registroHaber.CodCuenta))
             {
@@ -57,5 +59,9 @@ namespace A893092.Actividad03
             }
             return true;
         }
+
+
     }
 }
+
+

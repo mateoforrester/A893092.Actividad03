@@ -1,0 +1,1 @@
+NroAsiento|Fecha|CodigoCuenta|Debe|Haber
